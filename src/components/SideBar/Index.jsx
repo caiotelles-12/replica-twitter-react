@@ -39,7 +39,7 @@ function SideBar() {
         <NavItem icon={faEllipsisH} text={"More"} />
       </nav>
 
-      <button className="bg-blue-400 rounded-full font-bold px-4 py-3 mt-4 w-full">
+      <button className="bg-blue-400 rounded-full font-bold px-4 py-3 mt-4 w-full hover:bg-blue-600">
         <FontAwesomeIcon
           icon={faFeatherAlt}
           className="text-white inline xl:hidden"

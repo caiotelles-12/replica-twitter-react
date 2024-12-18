@@ -102,7 +102,11 @@ function App() {
           {/* WHATS HAPPENING */}
           <div className="bg-gray-800 rounded-xl mt-4 p-4">
             <h2 className="font-bold text-xl mb-4">Whats Happenig</h2>
-            <TrendItem category="NFL . LIVE" name="Cardinals at Bills" />
+            <TrendItem
+              category="NFL . LIVE"
+              name="Cardinals at Bills"
+              tweetCount="1,520,324"
+            />
             <TrendItem
               category="Sports . Trending"
               name="Kyle Dugger"
